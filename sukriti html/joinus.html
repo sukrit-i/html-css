@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Marketing Website</title>
+    <link rel="shortcut icon" href="image.jpeg" type="image/x-icon">
+    <style>
+      .navbar {
+        background-color: #2273ff23;
+        
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 1px 2px 12px 4px rgba(112,112,112,0.76);
+-webkit-box-shadow: 1px 2px 12px 4px rgba(112,112,112,0.76);
+-moz-box-shadow: 1px 2px 12px 4px rgba(112,112,112,0.76);
+      }
+    
+      .navbar ul {
+        overflow: auto;
+      }
+      .navbar li {
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+      }
+      .search{
+        margin: 12px;
+        margin-right: 40px;
+      }
+      .ach{
+        margin-top: 18px;
+      }
+     .logo{
+       height: 80px;
+       margin-inline: auto;
+     }
+      .navbar li,
+      .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: #000;
+      }
+      .navbar li a:hover {
+        background-color: #fff;
+        color: rgb(49, 49, 49);
+        padding: 12px;
+        transition: all .4s ease-in-out;
+      }
+      .search {
+        float: right;
+        color: white;
+        padding: 12px 75px;
+      }
+      .navbar .inputs {
+        border: 2px solid black;
+        border-radius: 14px;
+        padding: 3px 10px;
+        width: 229px;
+        height: 30px;
+        margin-left: -10%;
+      }
+      .nav-btns {
+        margin-top: 23px;
+        margin-left: 25%;
+        margin-right: 72px;
+      }
+      .flex-container {
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: normal;
+        align-content: normal;
+        height: 400px;
+      }
+
+      .flex-items:nth-child(1) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        width: 100%;
+        background-color: #fbeaff;
+        margin-right: 10px;
+      }
+
+      .flex-items:nth-child(2) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        width: 100%;
+        background-color: #fbeaff;
+        margin-right: 10px;
+      }
+      .flex-items:hover{
+        background-color: #fff;
+        transform: scale(.94);
+        transition: all .4s ease-in-out;
+      }
+      .flex-items:nth-child(3) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        width: 100%;
+        background-color: #fbeaff;
+      }
+
+     .contact{
+       margin-top: 12px;
+     }
+      footer {
+        height: 100%;
+        text-align: center;
+        padding: 3px;
+        background-color: #f0c2ff;
+        color: white;
+      }
+      .ach {
+        height: 400px;
+        display: flex;
+      }
+      .text {
+        width: 50%;
+      }
+      .img {
+        width: 50%;
+      }
+      .img-ach {
+        margin: 20px;
+      }
+      footer {
+        height: 100%;
+        text-align: center;
+        padding: 30px;
+        background-color: #242424;
+        color: white;
+      }
+      .des{
+        padding: 22px;
+        background-color: #f1f1f1;
+        margin: 22px;
+        box-shadow: -4px 5px 12px 1px rgba(153,149,149,0.76);
+-webkit-box-shadow: -4px 5px 12px 1px rgba(153,149,149,0.76);
+-moz-box-shadow: -4px 5px 12px 1px rgba(153,149,149,0.76);
+      }
+      .flex-items{
+     border-radius: 12px;
+     font-family: 'Courier New', Courier, monospace;
+      }
+   .ach{
+     border: 1px solid gray;
+     box-shadow: 1px 2px 12px 0px rgba(67,98,255,0.76);
+-webkit-box-shadow: 1px 2px 12px 0px rgba(67,98,255,0.76);
+-moz-box-shadow: 1px 2px 12px 0px rgba(67,98,255,0.76);
+   }
+
+   .suc-flex{
+     display: grid;
+   grid-template-columns: repeat(2,1fr);
+   padding: 32px;
+   }
+
+   .suc-flex>*{
+     padding: 22px;
+   }
+  
+    .ab {
+        margin: 100px;
+    }
+    .login-box {
+        padding: 3em;
+        background-color: #fff;
+        width: 100%;
+        margin: 5em 10em;
+        align-content: center;
+    }
+    .vk {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+    
+        transform: translate(-53%, -50%);
+        margin-top: 1px;
+        padding-top: 1em;
+    }
+    input {
+        padding: 10px;
+    }
+    
+.logosign{
+   
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+  
+   
+}
+
+.box3{
+   
+   width: 7cm;
+   padding-top: 1cm;
+   padding-left: 2cm;
+   padding-right: 2cm;
+   padding-bottom: 2cm;
+   margin-top: 2cm;
+   margin-left: 3cm;
+   margin-right: 2cm;
+   
+   
+   
+
+}
+.box5 ul li{
+  
+   
+  
+ padding-top: -1cm;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  letter-spacing: 2px;
+   display: inline;
+   color: rgb(173, 216, 74);
+   
+   
+}
+.header{
+  padding-left: 21cm;
+   
+   width: 100%;
+   height: 2.2cm;
+}
+.imgd img{
+   margin-top: 4px;
+   width: 3cm;
+   margin-left: -20cm;
+   display: inline;
+}
+.box5{
+   margin-top: -2cm;
+}
+.box3 a{
+   background-color:rgb(0, 0, 0) ;
+  
+   padding-top: 0.5cm;
+   padding-left: 1cm;
+   padding-right: 1cm;
+   padding-bottom: 0.5cm;
+   color:rgb(222, 224, 217);
+   
+}
+.box3 input{
+   height: 1cm;
+  
+   padding-left: 1cm;
+   letter-spacing: 0.1cm;
+   margin-left: -0.5cm;
+
+}
+.forget{
+  margin-top: -4.5cm;
+  margin-left: 10.0cm;
+}
+.box1{
+   background-color:rgb(200, 199, 199);
+   width: 16cm;
+   margin-left: 5cm;
+   margin-top: -16cm;
+  
+   }
+   
+  
+         
+      
+      .fotter{
+         background-color:rgb(11, 11, 11);
+         color: white;
+        
+         font-size: 20px;
+        width: 100%;
+        
+         height: 6cm;
+         
+      }
+      .fotter ul{
+         display: inline-block;
+        margin-right: 3cm;
+       
+      }
+      .fotter img{
+         height: 2cm;
+      
+      }
+      .fotter p{
+         opacity: 0.7;
+         font-size: 0.4cm;
+         word-spacing: 0.1cm;
+         margin-top: 1cm;
+         margin-left: 14cm;
+      }
+  
+      .signimg img{
+          width: 10cm; 
+          margin-top: 6cm;
+          margin-left: 27cm;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+       
+          
+            <div class="logo">
+              <img src="rep.jpeg" class="logo" alt="">
+
+            </div>
+          
+          <div class="nav-btns">
+                <li><a href="index.html">Home</a>
+                </li>
+            <li><a href="Career.html">Careers</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+
+           </div>
+            <div class="search" style="border-radius: 20px">
+              <input
+                class="inputs"
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search "
+              />
+            </div>
+          
+        
+      </nav>
+    </header>
+   <!--join us now-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singnup page</title>
+<body>
+  <div class="signimg">
+    <img src="image.jpeg" alt="errors">
+</div>
+  <div class="box1">
+     
+      <div class="box3">
+        
+        <h1>Sign up</h1> <br> <br>
+        Full Name <br> <br>
+        <input type="name" name="name"  placeholder="Full Name"><br><br><br>
+
+        Email <br> <br>
+        <input type="email" name="email" placeholder="Email"> <br> <br> <br>
+        Password <br> <br>
+        
+        <input type="password" name="password" id="password" placeholder="password"> <br> <br> 
+        Phone no <br> <br>
+        <input type="text" placeholder="Phone no">
+        <br> <br> <br> <br>
+        <br>
+     
+        <a href="blcc.html"><b class="logosign"><b>Sign up</b></b></a>
+        
+    </div>
+    
+  </div>
+ 
+   <div class="forget">
+    Remember me  <input type="checkbox" class="checkb" >
+    <a href="forgot">Forget password</a>
+   
+   </div>
+
+
+</body>
+</html>
+  
+</html>

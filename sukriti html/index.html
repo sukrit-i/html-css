@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+  <head>
+    
+    <title>Marketing Website</title>
+    <H1>LPU MARKETING</H1>
+    <link rel="shortcut icon" href="rep.jpeg" type="image/x-icon">
+    <style>
+      .navbar {
+        background-color: #2273ff23;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 1px 2px 12px 4px rgba(112,112,112,0.76);
+-webkit-box-shadow: 1px 2px 12px 4px rgba(112,112,112,0.76);
+-moz-box-shadow: 1px 2px 12px 4px rgba(112,112,112,0.76);
+      }
+    
+      .navbar ul {
+        overflow: auto;
+      }
+      .navbar li {
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+      }
+      .search{
+        margin: 12px;
+        margin-right: 40px;
+      }
+      .ach{
+        margin-top: 18px;
+      }
+     .logo{
+       height: 80px;
+       margin-inline: auto;
+     }
+      .navbar li,
+      .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: #000;
+      }
+      .navbar li a:hover {
+        background-color: #fff;
+        color: rgb(49, 49, 49);
+        padding: 12px;
+        transition: all .4s ease-in-out;
+      }
+      .search {
+        float: right;
+        color: white;
+        padding: 12px 75px;
+      }
+      .navbar .inputs {
+        border: 2px solid black;
+        border-radius: 14px;
+        padding: 3px 10px;
+        width: 229px;
+        height: 30px;
+        margin-left: -10%;
+      }
+      .nav-btns {
+        margin-top: 23px;
+        margin-left: 25%;
+        margin-right: 72px;
+      }
+      .flex-container {
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: normal;
+        align-content: normal;
+        height: 400px;
+      }
+
+      .flex-items:nth-child(1) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        width: 100%;
+        background-color: #fbeaff;
+        margin-right: 10px;
+      }
+
+      .flex-items:nth-child(2) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        width: 100%;
+        background-color: #fbeaff;
+        margin-right: 10px;
+      }
+      .flex-items:hover{
+        background-color: #fff;
+        transform: scale(.94);
+        transition: all .4s ease-in-out;
+      }
+      .flex-items:nth-child(3) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        width: 100%;
+        background-color: #fbeaff;
+      }
+
+     .contact{
+       margin-top: 12px;
+     }
+      footer {
+        height: 100%;
+        text-align: center;
+        padding: 3px;
+        background-color: #f0c2ff;
+        color: white;
+      }
+      .ach {
+        height: 400px;
+        display: flex;
+      }
+      .text {
+        width: 50%;
+      }
+      .img {
+        width: 50%;
+      }
+      .img-ach {
+        margin: 20px;
+      }
+      footer {
+        height: 100%;
+        text-align: center;
+        padding: 30px;
+        background-color: #242424;
+        color: white;
+      }
+      .des{
+        padding: 22px;
+        background-color: #f1f1f1;
+        margin: 22px;
+        box-shadow: -4px 5px 12px 1px rgba(153,149,149,0.76);
+-webkit-box-shadow: -4px 5px 12px 1px rgba(153,149,149,0.76);
+-moz-box-shadow: -4px 5px 12px 1px rgba(153,149,149,0.76);
+      }
+      .flex-items{
+     border-radius: 12px;
+     font-family: 'Courier New', Courier, monospace;
+      }
+   .ach{
+     border: 1px solid gray;
+     box-shadow: 1px 2px 12px 0px rgba(67,98,255,0.76);
+-webkit-box-shadow: 1px 2px 12px 0px rgba(67,98,255,0.76);
+-moz-box-shadow: 1px 2px 12px 0px rgba(67,98,255,0.76);
+   }
+
+   .suc-flex{
+     display: grid;
+   grid-template-columns: repeat(2,1fr);
+   padding: 32px;
+   }
+
+   .suc-flex>*{
+     padding: 22px;
+   }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+       
+          
+            <div class="logo">
+              <img src="rep.jpeg" class="logo" alt="">
+
+            </div>
+          
+          <div class="nav-btns">
+                <li><a href="index.html">Home</a>
+                </li>
+            <li><a href="Career.html">Careers</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+           </div>
+            <div class="search" style="border-radius: 20px">
+              <input
+                class="inputs"
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search "
+              />
+            </div>
+          
+        
+      </nav>
+    </header>
+
+    <!-- ach -->
+    <div class="ach">
+      <div class="text" style="background-color: #ffffff74">
+        <h3 style="text-align: center; font-size: 36px">
+          Our Achievements
+        </h3>
+ 
+        <div class="suc-flex">
+          <div class="flex-ach">
+            <b><font size="+3">40+</font></b>
+            Years Of Service
+           </div>
+            <div class="flex-ach">
+               <sup>RS</sup><b><font size="+3">100.05</font></b><sup>bn</sup>
+            Total Revenue
+            </div>
+           
+            <div class="flex-ach">
+               <b><font size="+3">50+</font></b>
+            Countries We Are Present In
+            </div>
+           <div class="flex-ach">
+               <b><font size="+3">100K+</font></b>
+            Employees
+           </div>
+        </div>
+        
+        
+      </div>
+      
+      <div class="img" style="background-color: #ffffff">
+        <img
+          class="img-ach"
+          src="image.jpeg"
+          alt="img"
+          height="350px"
+          
+        />
+      </div>
+    </div>
+    <!-- <br></br> -->
+    <!-- cards -->
+<div class="maru" style="background-color: rgba(255, 0, 0, 0.603);">
+  <marquee behavior="scroll" direction="right" onmouseover="this.stop();" onmouseout="this.start();">
+   <a href="joinus.html">    JOIN US NOW!
+  </a> </marquee>
+</div>
+    <div class="flex-container des">
+      <div class="flex-items" style="background-color: #e5e2e28f; border: 1px solid black;">
+        <h1 style="text-align: center; color: #005b44 ;">Article 1</h1>
+        <h4 style="text-align: center">
+            <b>LPU MARKETING</b> is LinkedIn's all-in-one advertising platform. 
+            You'll be able to set up ad accounts, run campaigns, and control your budget.
+             All you need is a LinkedIn account to get started. Whether you’re focused on lead generation or brand awareness, 
+             selecting your objective is the first step to help us streamline and customize your campaign creation.
+             Once you’ve selected an objective, you’ll be guided to build an audience, set a budget, and upload an ad creative. 
+             The final steps are to set up your payment details and launch your campaign!
+        </h4>
+      </div>
+      <div class="flex-items" style="background-color: #e5e2e28f; border: 1px solid black;">
+        <h1 style="text-align: center; color: #005b44">Article 2</h1>
+        <h4 style="text-align: center">
+          “It’s tricky to choose a single marketing article as my favorite, but the one that has had a lasting impression on me is LPU MARKETING’s ‘What Creativity in Marketing Looks Like Today’. 
+          Karan , Aryan and Harsh do a great job distilling the wisdom of senior marketing executives from dozens of top brands, varying from Old Navy to OpenTable. 
+          One of my favorite lines is this one — ‘People are the new channel. The way to amplify impact is by inspiring creativity in others’. 
+          Ultimately, I’m a fan of anything LPU MARKETING, and this piece in particular is a good one to check out if you want to learn more about what top brands are doing to stand out in the industry today.”
+        </h4>
+      </div>
+      <div class="flex-items" style="background-color: #e5e2e28f; border: 1px solid black;">
+        <h1 style="text-align: center; color: #005b44">Article 3</h1>
+        <h4 style="text-align: center">
+          Businesses that involve selling products to family and friends and recruiting other people to do the same are called multi-level marketing (MLM), network marketing, or direct marketing businesses. 
+          Some MLMs are illegal pyramid schemes. Pyramid schemes are scams. They can look remarkably like legitimate MLM business opportunities and often sell actual products, maybe even ones you've heard of.
+          But if you become a distributor for a pyramid scheme, it can cost you and your recruits — often your family and friends — a lot of time and money that you won’t get back. 
+        </h4>
+      </div>
+    </div>
+        <!-- footer -->
+    <footer>
+      <h5 style="text-align: left; color: #fff;">Lovely Professional University,Phagwara, Punjab 144001
+        <br></br>
+        Email: xyz@email.com
+        <br></br>
+        Phone Number: 81782636283
+      </h5>
+      <p style="color: blueviolet">Developed by Sukriti , Uttam and Jahnavi<br /></p>
+    </footer>
+  </body>
+</html>
